@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Apply JavaScript example</title>
+    <script text="application/javascript" src="iwt.js" defer></script>
+  </head>
+  <body>
+    <!-- Add a click to run either question 1 or question 2  -->
+    
+    <!-- Uncomment the below section to run question one -->
+
+    <!-- <section id="question_one">
+      <section id="test_id_one">Empty Space</section>
+      <div id="first_value"></div>
+    </section> -->
+
+    <!-- Uncomment the below section to run question two -->
+
+    <section id="question_two">
+      <form id="test_id_two">
+        <script text="application/javascript">
+          let winAlert = () => window.alert("The button is clicked but the alert is sent using a script tag HTML")
+        </script>
+        <label>Enter a word:</label>
+        <input type="text" id="first_word" />
+        <input type="text" id="second_word" />
+        <input type="button" id="ques_two_button" value="Which is Larger?" />
+        <!-- <input type="button" id="ques_two_button" value="Which is Larger?" onclick="window.alert('the button is clicked using the attribute onclick event handler')" /> -->
+        <!-- <input type="button" id="ques_two_button" value="Which is Larger?" onclick="winAlert()" /> -->
+        <div type="text" id="ques_two_result"></div>
+      </form>
+    </section>
+
+  </body>
+</html>

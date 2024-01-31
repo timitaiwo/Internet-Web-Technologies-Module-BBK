@@ -1,0 +1,11 @@
+{
+  "name": "iwt_labs",
+  "version": "1.0.0",
+  "description": "collection of lab work for Internet and Web Technology class in MSc Birkbeck",
+  "main": "index.js",
+  "scripts": {
+    "lab_two": "node ./lab_sess_two/js_promise.js"
+  },
+  "author": "Timi",
+  "license": "ISC"
+}
