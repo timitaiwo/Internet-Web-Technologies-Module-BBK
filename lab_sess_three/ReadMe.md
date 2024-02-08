@@ -1,0 +1,1 @@
+This project updates the HTML page using the content of an xml file. This can be done either by using jquery or vanilla JavaScript with both methods being done.
